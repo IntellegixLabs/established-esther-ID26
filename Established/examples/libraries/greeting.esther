@@ -1,0 +1,3 @@
+this function "greet" with "person"
+    say "Hello, " plus the value of "person".
+end this

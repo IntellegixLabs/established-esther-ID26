@@ -1,0 +1,8 @@
+comment: function and expression example
+this function "add" with "a" and "b"
+    return the value of "a" plus the value of "b".
+end this
+
+let "result" become that function "add" with 3 and 5.
+say the value of "result".
+end executable.

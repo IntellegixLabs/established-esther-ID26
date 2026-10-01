@@ -1,0 +1,6 @@
+let "content" become "File round trip works.".
+write the value of "content" to file "roundtrip.txt".
+read text from file "roundtrip.txt" into "loaded".
+say the value of "loaded".
+trash file "roundtrip.txt".
+end executable.

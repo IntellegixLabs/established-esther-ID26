@@ -1,0 +1,10 @@
+comment: shopping list manager
+grab and use "io" from the standard library.
+
+list add list "cart": bread, butter and milk.
+list put "eggs" in "cart" list.
+say "Your cart:".
+this loop for each "item" in "cart" list
+    say the value of "item".
+end this
+end executable.

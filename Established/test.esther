@@ -1,0 +1,27 @@
+comment: number guessing game
+grab and use "io" from the standard library.
+
+establish "max tries" become 3.
+let "secret" become random number from 1 to 10.
+let "tries" become 0.
+
+this loop while the value of "tries" is less than the value of "max tries"
+    read "guess" from I/O.
+    change "tries" to the value of "tries" plus 1.
+    this if the value of "guess" is the value of "secret"
+        say "Correct!".
+        stop.
+    otherwise
+        say "Wrong!".
+    end this
+end this
+
+say "Game over.".
+end executable.
+
+comment: another game
+
+this function speak.
+    this if i = 0.
+    this else say "no".
+end this

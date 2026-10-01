@@ -1,0 +1,19 @@
+comment: loops, branches, arithmetic, and error handling
+let "counter" become 0.
+this loop while the value of "counter" is less than 3
+    change "counter" to the value of "counter" plus 1.
+end this
+
+this if the value of "counter" is 3
+    say "Count is three.".
+otherwise
+    say "Unexpected count.".
+end this
+
+say the remainder of 10 divided by 3.
+this try
+    read text from file "missing-data.txt" into "content".
+if that fails
+    say "Handled missing file.".
+end this
+end executable.

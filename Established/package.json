@@ -1,0 +1,30 @@
+{
+  "name": "established-esther",
+  "version": "0.1.0",
+  "description": "Native C++ runtime for the Established language (.esther)",
+  "homepage": "https://github.com/OWNER/REPOSITORY#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OWNER/REPOSITORY.git"
+  },
+  "bugs": {
+    "url": "https://github.com/OWNER/REPOSITORY/issues"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "bin": {
+    "esther": "bin/esther.js"
+  },
+  "scripts": {
+    "postinstall": "node npm/install.js"
+  },
+  "files": [
+    "bin/esther.js",
+    "npm/install.js",
+    "README.md"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
+}

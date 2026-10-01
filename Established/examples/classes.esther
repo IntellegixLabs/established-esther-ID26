@@ -1,0 +1,18 @@
+comment: player class demo
+this that "Player"
+    let "health" become 100.
+
+    this function "heal" with "amount"
+        change "health" to the value of "health" plus the value of "amount".
+    end this
+
+    this function "status"
+        say "Health:".
+        say the value of "health".
+    end this
+end this that
+
+let "hero" become a new "Player".
+that "hero" function "heal" with 20.
+that "hero" function "status".
+end executable.
